@@ -24,9 +24,20 @@
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>
 	<string>Main</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Hey I&apos;m testing geofencing so I need your location :)</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>Hey I&apos;m testing geofencing so I need your location :)</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>Hey I&apos;m testing geofencing so I need your location :)
+&lt;!DOCTYPE plist PUBLIC &quot;-//Apple//DTD PLIST 1.0//EN&quot; &quot;http://www.apple.com/DTDs/PropertyList-1.0.dtd&quot;&gt;
+&lt;plist version=&quot;1.0&quot;&gt;
+&lt;string&gt;Hey I&amp;apos;m testing geofencing so I need your location :)&lt;/string&gt;
+&lt;/plist&gt;
+</string>
 	<key>UIRequiredDeviceCapabilities</key>
 	<array>
-		<string>armv7</string>
+		<string></string>
 	</array>
 	<key>UISupportedInterfaceOrientations</key>
 	<array>

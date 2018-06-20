@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		188A513A20D77CCA00BF1BCC /* APICalls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188A513920D77CCA00BF1BCC /* APICalls.swift */; };
 		188FC2AC20ADD90E00DC9DCA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188FC2AB20ADD90E00DC9DCA /* AppDelegate.swift */; };
 		188FC2AE20ADD90E00DC9DCA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188FC2AD20ADD90E00DC9DCA /* ViewController.swift */; };
 		188FC2B120ADD90E00DC9DCA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 188FC2AF20ADD90E00DC9DCA /* Main.storyboard */; };
 		188FC2B320ADD91000DC9DCA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 188FC2B220ADD91000DC9DCA /* Assets.xcassets */; };
 		188FC2B620ADD91000DC9DCA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 188FC2B420ADD91000DC9DCA /* LaunchScreen.storyboard */; };
-		188FC2C120ADD91100DC9DCA /* GeofencingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188FC2C020ADD91100DC9DCA /* GeofencingTests.swift */; };
-		188FC2CC20ADD91100DC9DCA /* GeofencingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188FC2CB20ADD91100DC9DCA /* GeofencingUITests.swift */; };
+		188FC2DA20ADD9A100DC9DCA /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188FC2D920ADD9A100DC9DCA /* NotificationViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +34,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		188A513920D77CCA00BF1BCC /* APICalls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICalls.swift; sourceTree = "<group>"; };
 		188FC2A820ADD90E00DC9DCA /* Geofencing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Geofencing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		188FC2AB20ADD90E00DC9DCA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		188FC2AD20ADD90E00DC9DCA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -42,11 +43,8 @@
 		188FC2B520ADD91000DC9DCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		188FC2B720ADD91000DC9DCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		188FC2BC20ADD91100DC9DCA /* GeofencingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeofencingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		188FC2C020ADD91100DC9DCA /* GeofencingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeofencingTests.swift; sourceTree = "<group>"; };
-		188FC2C220ADD91100DC9DCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		188FC2C720ADD91100DC9DCA /* GeofencingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeofencingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		188FC2CB20ADD91100DC9DCA /* GeofencingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeofencingUITests.swift; sourceTree = "<group>"; };
-		188FC2CD20ADD91100DC9DCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		188FC2D920ADD9A100DC9DCA /* NotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,8 +76,6 @@
 			isa = PBXGroup;
 			children = (
 				188FC2AA20ADD90E00DC9DCA /* Geofencing */,
-				188FC2BF20ADD91100DC9DCA /* GeofencingTests */,
-				188FC2CA20ADD91100DC9DCA /* GeofencingUITests */,
 				188FC2A920ADD90E00DC9DCA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -98,31 +94,15 @@
 			isa = PBXGroup;
 			children = (
 				188FC2AB20ADD90E00DC9DCA /* AppDelegate.swift */,
+				188A513920D77CCA00BF1BCC /* APICalls.swift */,
 				188FC2AD20ADD90E00DC9DCA /* ViewController.swift */,
+				188FC2D920ADD9A100DC9DCA /* NotificationViewController.swift */,
 				188FC2AF20ADD90E00DC9DCA /* Main.storyboard */,
 				188FC2B220ADD91000DC9DCA /* Assets.xcassets */,
 				188FC2B420ADD91000DC9DCA /* LaunchScreen.storyboard */,
 				188FC2B720ADD91000DC9DCA /* Info.plist */,
 			);
 			path = Geofencing;
-			sourceTree = "<group>";
-		};
-		188FC2BF20ADD91100DC9DCA /* GeofencingTests */ = {
-			isa = PBXGroup;
-			children = (
-				188FC2C020ADD91100DC9DCA /* GeofencingTests.swift */,
-				188FC2C220ADD91100DC9DCA /* Info.plist */,
-			);
-			path = GeofencingTests;
-			sourceTree = "<group>";
-		};
-		188FC2CA20ADD91100DC9DCA /* GeofencingUITests */ = {
-			isa = PBXGroup;
-			children = (
-				188FC2CB20ADD91100DC9DCA /* GeofencingUITests.swift */,
-				188FC2CD20ADD91100DC9DCA /* Info.plist */,
-			);
-			path = GeofencingUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,6 +238,8 @@
 			files = (
 				188FC2AE20ADD90E00DC9DCA /* ViewController.swift in Sources */,
 				188FC2AC20ADD90E00DC9DCA /* AppDelegate.swift in Sources */,
+				188A513A20D77CCA00BF1BCC /* APICalls.swift in Sources */,
+				188FC2DA20ADD9A100DC9DCA /* NotificationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,7 +247,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				188FC2C120ADD91100DC9DCA /* GeofencingTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,7 +254,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				188FC2CC20ADD91100DC9DCA /* GeofencingUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
